@@ -1,0 +1,9 @@
+.deneme {
+  margin-top: 5rem;
+}
+
+@media(max-width:500px) {
+  .deneme {
+    margin-top: 10rem;
+  }
+}

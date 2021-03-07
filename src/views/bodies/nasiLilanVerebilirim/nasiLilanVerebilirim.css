@@ -1,0 +1,35 @@
+.ilan h5 {
+  color: green;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 16px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.ilan .blockquote2 {
+  font-size: 16px;
+  border-left: 3px solid green !important;
+  color: green !important;
+}
+
+@media(max-width:500px){
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .grid2 .blockquote2{
+    font-size: 12px;
+  }
+}
+@media(min-width:500px) and (max-width:1024px){
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+}

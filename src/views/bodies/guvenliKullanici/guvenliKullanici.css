@@ -1,0 +1,90 @@
+.guvenliKullanici {
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 20px;
+  margin: 0 auto;
+  color: green !important;
+  background-color: #1b5e20;
+}
+
+#container {
+  padding: 0 5rem;
+  background-color: white;
+}
+
+.guvenliKullanici h5{
+  margin-bottom: 5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1b5e20;
+  text-align: center;
+}
+.ozelliklerH3{
+  letter-spacing: 2px;
+  color: #1b5e20;
+}
+
+.guvenilirSatici {
+  border-top: 3px solid #1b5e20;
+}
+.guvenliKullanici h6 {
+  font-weight: bold;
+}
+
+.guvenliKullanici .flow-text {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  font-size: 16px;
+}
+
+.gridRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+.gridColumn {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.gridColumn2 {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+.gridRow2{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+blockquote {
+  color: green !important;
+  border-left: 3px solid green!important;
+}
+
+@media(max-width:500px){
+  .guvenliKullanici img {
+    margin: 0;
+    width: 100%;
+  }
+  .gridRow {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+  #container {
+    padding: 1rem;
+  }
+}
+@media(min-width:500px) and (max-width:1024px){
+  
+  .gridRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  #container {
+    padding: 3rem;
+  }
+  .guvenliKullanici img {
+    margin: 0;
+    width: 100%;
+  }
+}

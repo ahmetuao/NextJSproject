@@ -1,0 +1,77 @@
+.card2 {
+  display: none;
+}
+.dopingSystem {
+  margin: 5rem 0;
+  padding: 1rem 0;
+  background-color: #1b5e20;
+}
+.gridDop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+.card {
+  text-align: center;
+  color: green;
+}
+.cardHeader {
+  padding: 0 0 1rem 0;
+  border-bottom: 2px solid #1b5e20;
+}
+.card:hover {
+  margin: -0.1rem;
+}
+.dopingSystem span {
+  padding: 1rem;
+  background-color: #1b5e20;
+  color: white;
+}
+.card-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  margin: -24px -24px 0 -24px;
+  .bizeUlasin {
+    margin: 0 2rem;
+    padding: 1rem;
+    border: 1px solid #1b5e20;
+    border-radius: 8px;
+    a {
+      color: green;
+    }
+  }
+}
+.bizeUlasin:hover {
+  a {
+    color: white !important;
+  }
+  background-color: #1b5e20;
+  border: 1px solid white;
+}
+
+.card-reveal {
+  font-size: 16px;
+  .card-title {
+    font-size: 12px;
+    border: 1px solid #1b5e20;
+    border-radius: 8px;
+    color: white !important;
+    background-color: #1b5e20;
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .gridDop {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  .gridDop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

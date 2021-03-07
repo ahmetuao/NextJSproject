@@ -1,0 +1,33 @@
+#social-media-icons {
+  padding-bottom: 75px;
+}
+#nav1 li a{
+  color: green !important;
+  font-weight: bolder;
+}
+#nav1 {
+  border-bottom: 1px solid green;
+}
+
+#nav1{
+  overflow-x: scroll;
+}
+#nav1::-webkit-scrollbar {
+  display: none;
+}
+#nav1-side-giris{
+  color: green;
+  border-bottom: 1px solid green;
+}
+#mobile-demo li i {
+  color: white;
+}
+
+.sidenav-overlay{
+  opacity: 0 !important;
+}
+@media(max-width:500px){
+  .navbar-fixed{
+    margin-bottom: 5rem;
+  }
+}
